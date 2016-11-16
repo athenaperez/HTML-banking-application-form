@@ -1,0 +1,27 @@
+/******************************
+GENERAL STYLING
+******************************/
+
+
+
+body {
+	font-family: /*"novecento sans", */Arial, sans-serif;
+	font-variant: small-caps;
+}
+
+
+.heading {
+	text-align: center;
+	font-family: /*Frontage, */helvetica; sans-serif;
+	margin-top: 5%;
+}
+
+h3 {
+	text-align: center
+
+}
+
+form {
+	width: 50%;
+	margin: 0 auto 0 auto;
+}

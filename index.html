@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form Exercise</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+		<h1 class="heading">LOAN APPLICATION</h1>
+		<h3>A FICTIONAL BANK EXERCISE</h3>
+
+		<form action="questionair.php" method="post">
+
+
+<!-- CONTACT INFORMATION				 -->
+			<fieldset>
+			<legend>Contact Information</legend>
+			<br>
+<!-- FIRST NAME -->
+				<lable>First Name:
+				<input type="text" name="firstName" size="20" maxlength="30"></lable>
+<!-- MIDDLE NAME -->
+				<label>Middle Name:
+				<input type="text" name="middleName" size="10" maxlength="30"></label>
+<!-- LAST NAME -->
+				<lable>Last Name:
+				<input type="text" name="lastName" size="20" maxlength="30"></lable>
+<!-- EMAIL ADDRESS -->
+				<br>
+				<br>
+				<label>Email:
+				<input type="text" name="lastName" size="50" maxlength="50"></label>
+<!-- PHONE NUMBER -->
+				<label>Phone Number:
+				<input type="text" name="phoneNumber" size="20" maxlength="30"></label>
+			</fieldset>
+			<br>
+
+
+<!-- ADDRESS INFORMATION -->
+			<fieldset>
+			<legend>ADDRESS</legend>
+			<br>
+	<!-- STREET ADDRESS -->
+				<lable>Street Address:
+				<input type="text" name="streetAddress" size="80" maxlength="100"></lable>
+				<br>
+				<br>
+	<!-- CITY -->
+				<lable>City:
+				<input type="text" name="city" size="50" maxlength="70"></lable>
+	<!-- STATE -->
+				<lable>State:</lable>
+				<select name="current-state">
+					<option value="Select One">Select A State</option>
+					<option value="Ennie">Ennie</option>
+					<option value="Meenie">Meenie</option>
+					<option value="Miney">Miney</option>
+					<option value="Moe">Moe</option>
+				</select>
+	<!-- ZIP -->
+				<lable>Zip:
+				<input type="text" name="zip" size="10" maxlength="9"></lable>
+			</fieldset>
+			<br>
+
+			
+
+
+<!-- EMPLOYMENT INFORMATION -->
+			<fieldset>
+			<legend>EMPLOYMENT INFORMATION</legend>
+			<br>
+<!-- OCCUPATION -->
+				<lable>Occupation:
+				<input type="text" name="occupation" size="40" maxlength="9"></label>
+<!-- EMPLOYER -->
+				<label>Employer:
+				<input type="text" name="employer" size="30" maxlength="9"></label>
+				<br>
+				<br>
+<!-- EMPLOYER ADDRESS -->
+				<label>Employer Street Address:
+				<input type="text" name="employerAddress" size="69" maxlength="100"></label>
+				<br>
+				<br>
+				<label>Employer City:
+				<input type="text" name="employerCity" size="15" maxlength="50"></label>
+				<lable>Employer State:</lable>
+				<select name="current-state">
+					<option value="Select One">Select A State</option>
+					<option value="Ennie">Ennie</option>
+					<option value="Meenie">Meenie</option>
+					<option value="Miney">Miney</option>
+					<option value="Moe">Moe</option>
+				</select>
+				<label>Employer Zip:</label>
+				<input type="text" name="zip" size="12" maxlength="9">
+				<br>
+				<br>
+<!-- LINKEDIN URL  -->
+				<label>LinkedIn Profile:
+				<input type="text" name="linkedinProfile" size="80" maxlength="50"></label>
+			</fieldset>
+			<br>
+
+
+<!-- LOAN INFORMATION -->
+			<fieldset>
+			<legend>LOAN INFORMATION</legend>
+			<br>
+<!-- SELECT ELEMENT - TYPE OF LOAN -->
+				Type of Loan:
+				<select name="loanType">
+					<option value="Select A Type">Select A Type</option>
+					<option value="Small">Small</option>
+					<option value="Medium">Medium</option>
+					<option value="Large">Large</option>
+					<option value="Trump">Trump</option>
+				</select>
+<!-- AMOUNT OF LOAN -->
+				<label>Lone Amount:
+				<input type="text" name="loanAmount" size="23" maxlength="30"></label>
+<!-- RADIO BUTTON ELEMTN - LENGTH OF LOAN -->
+				<br>
+				<br>
+				<label>Length of Loan:</label>
+				<br>
+				<input type="radio" name="loanLenth" value="5 Years" checked="checked"> 5 Years
+				<input type="radio" name="loanLenth" value="15 Years"> 15 Years
+				<input type="radio" name="loanLenth" value="30 Years"> 30 Years
+<!-- CHECKBOX ELEMENT - SPECIAL CONDITIONS -->
+				<br>
+				<br>
+				<label>Special Conditions (choose all that apply)</label>
+				<br>
+				<input type="checkbox" name="specialConditions" value="I have a down payment" checked="checked"> I have a down payment
+				<input type="checkbox" name="specialConditions" value="Out-of-state resident"> Out-of-state resident
+				<br>
+				<input type="checkbox" name="specialConditions" value="Married"> Married
+				<input type="checkbox" name="specialConditions" value="Loan will be co-signed"> Loan will be co-signed
+				<br>
+<!-- TEXT AREA - ADDITIONAL COMMENTS -->
+				<br>
+				<br> 
+				<label>Additional Comments:</label>
+				<textarea name="message" rows="4" cols="45"> </textarea>
+			</fieldset>
+
+
+<!-- SUBMIT BUTTON -->
+
+
+		</form>
+
+
+
+</body>
+</html>
